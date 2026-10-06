@@ -1,0 +1,41 @@
+:root {
+  font-family: Inter, 'Segoe UI', sans-serif;
+  color: var(--graphite);
+  background: var(--canvas);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  --emerald-ink: #064e3b;
+  --emerald-hover: #0b6049;
+  --champagne: #f8e7c9;
+  --lime-spark: #c7e66b;
+  --lime-ink: #617c18;
+  --lime-soft: #edf3db;
+  --graphite: #202723;
+  --muted: #6b776f;
+  --canvas: #f4f6f2;
+  --paper: #fffefa;
+  --line: #e4e9e2;
+  --danger-ink: #9f3026;
+  --danger-line: #e8cac4;
+  --danger-soft: #fbefec;
+  --emerald-soft: #e9f1eb;
+  --ring-track: #e3e9e1;
+  --shadow-card: 0 12px 32px rgb(24 49 35 / 5%);
+  --shadow-raised: 0 18px 44px rgb(24 49 35 / 9%);
+}
+
+* { box-sizing: border-box; }
+body { min-width: 320px; min-height: 100vh; margin: 0; }
+button, input, select, textarea { font: inherit; }
+a { color: inherit; }
+button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible {
+  outline: 3px solid var(--lime-ink);
+  outline-offset: 3px;
+}
+
+#root { min-height: 100vh; }
+
+::selection { color: var(--emerald-ink); background: var(--lime-spark); }
